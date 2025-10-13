@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://Preethi2102005.github.io/To-do-list",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
